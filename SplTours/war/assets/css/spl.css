@@ -1,0 +1,27 @@
+.header-top .social-media ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 0px
+}
+.header-top .social-media ul li {
+	display: inline;
+}
+.header-top .social-media li a {
+	background: #f9676b none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    margin: 0px 5px 0;
+    padding: 6px 13px;
+    width: 40px;
+}
+.header-top .social-media li a:hover {
+	background: #00adef;
+}
+.header-top .social-media li a i {
+font-size: 16px;
+}
+.social-media a i{
+	color: #fff;	
+}
