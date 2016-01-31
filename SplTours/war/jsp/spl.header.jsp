@@ -32,7 +32,7 @@
 				<div class="col-md-5 col-sm-5">
 					<div class="social-media pull-right">
 						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/Spl-Thai-Tours-Transport-Coltd-698337793584674/?fref=ts"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -60,21 +60,14 @@
 							</button>
 							
 							<!-- BEGIN: LOGO -->
-							<a class="navbar-brand logo" href="index.html">SPL Tours</a>
+							<a class="navbar-brand logo" href="index.jsp">SPL Tours</a>
 						</div>
 						
 						<!-- BEGIN: NAVIGATION -->       
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav navbar-right">
 								<li class="dropdown">
-									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-home"></i> HOME <i class="fa fa-caret-down"></i></a>
-									<ul class="dropdown-menu">
-										<li><a href="index.html"> HOME STYLE 1</a></li>
-										<li><a href="index-2.html"> HOME STYLE 2</a></li>
-										<li><a href="index-3.html"> HOME STYLE 3</a></li>
-										<li><a href="index-4.html"> HOME STYLE 4</a></li>
-										<li><a href="index-5.html"> HOME STYLE 5</a></li>
-									</ul>
+									<a class="dropdown-toggle" href="index.jsp"><i class="fa fa-home"></i> HOME</a>
 								</li>
 								<li class="dropdown mega">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-bed"></i> HOTELS <i class="fa fa-caret-down"></i></a>
@@ -378,6 +371,13 @@
 										</li>
 									</ul>
 									<div class="clearfix"></div>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-phone"></i> Contact Us <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li><a href="spl.contactus-India.jsp"> India</a></li>
+										<li><a href="spl.contactus-Thailand.jsp"> Thailand</a></li>
+									</ul>
 								</li>
 							</ul>
 						</div>

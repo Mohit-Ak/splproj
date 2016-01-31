@@ -21,11 +21,11 @@
 				<div class="col-md-5 col-sm-5">
 					<div class="social-media pull-right">
 						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/Spl-Thai-Tours-Transport-Coltd-698337793584674/?fref=ts"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+<!-- 							<li><a href="#"><i class="fa fa-youtube"></i></a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -34,8 +34,10 @@
 		<div class="main-footer row">
 			<div class="container clear-padding">
 				<div class="col-md-3 col-sm-6 about-box">
-					<h3>CRUISE</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					<h3>SPL Tours</h3>
+					<p>"A journey is best measured in friends, rather than miles"– Tim Cahill. 
+					We love to be travel amigos & thirst for the same has kept us thriving since 2005. 
+					</p>
 					<a href="#">READ MORE</a>
 				</div>
 				<div class="col-md-3 col-sm-6 links">
@@ -54,8 +56,8 @@
 				<div class="col-md-3 col-sm-6 links">
 					<h4>Our Services</h4>
 					<ul>
-						<li><a href="#">Domestic Flights</a></li>
-						<li><a href="#">International Flights</a></li>
+						<li><a href="#">Foreign Currency Exchange</a></li>
+						<li><a href="#">Domestic & International Flights</a></li>
 						<li><a href="#">Tours & Holidays</a></li>
 						<li><a href="#">Domestic Hotels</a></li>
 						<li><a href="#">International Hotels</a></li>

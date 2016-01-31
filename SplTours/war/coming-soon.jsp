@@ -8,18 +8,12 @@
 	<meta name="description" content="">
 	<meta name="author" content="LimpidThemes">
 	
-	<title>Cruise - Responsive Travel Agency Template</title>
+	<title>SPL Tours - Coming Soon</title>
 	
-    <!-- Styles -->
-	<link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-	<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	
-	<!-- FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <%@ include file="jsp/spl.common_css_to_include.jspf"%>
 
 </head>
+
 <body class="full-screen">
 
 <!-- BEGIN: PRELOADER -->
@@ -38,7 +32,7 @@
 	<div class="coming-soon full-screen">
 		<div class="centered-box text-center">
 			<div class="logo">
-				<h2>CRUISE</h2>
+				<h2>SPL Tours and Travels</h2>
 			</div>
 			<div class="launch-title">
 				<h1><span>We Are Launching Soon</span></h1>
@@ -58,29 +52,27 @@
 			</div>
 			<div class="social-media">
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/Spl-Thai-Tours-Transport-Coltd-698337793584674/?fref=ts"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					
 				</ul>
 			</div>
-			<p class="copyright">&copy; 2015 Cruise</p>
+			<p class="copyright">&copy; 2015 SPL Tours</p>
 		</div>
 	</div>
 </div>
 <!-- END: SITE-WRAPPER -->
 
 <!-- Load Scripts -->
-<script src="assets/js/respond.js"></script>
-<script src="assets/js/jquery.js"></script>
+<%@ include file="jsp/spl.common_js_to_include.jspf"%>
 <script src="assets/plugins/jquery.plugin.min.js"></script>
 <script src="assets/plugins/jquery.countdown.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/js.js"></script>
+
 <script>
 	"use strict";
-	$('#site-launch').countdown({until: new Date(2015, 10-1, 25)});
+	$('#site-launch').countdown({until: new Date(2016, 1, 14, 10, 0, 0, 0)});
 </script>
 </body>
 </html>

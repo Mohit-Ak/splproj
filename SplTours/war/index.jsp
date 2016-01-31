@@ -43,31 +43,31 @@
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="assets/images/slide.jpg" alt="Cruise">
+							<img src="assets/images/header-navigation/thailandbanner.jpg" alt="Live Thailand">
 							<div class="carousel-caption">
 								<div class="wrapper">
-									<h2><span>SKY HIGH DUBAI</span></h2>
-									<h4>DUBAI TOURS STARTING FROM <span>$499/PERSON</span></h4>
+									<h2><span>Live Thailand</span></h2>
+									<h4>TRIPS STARTING FROM <span>22,222/PERSON</span></h4>
 									<a href="#">VIEW DETAILS</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
-							<img src="assets/images/header-navigation/dubai-slide.jpg" alt="Cruise">
+							<img src="assets/images/header-navigation/dubai-slide.jpg" alt="Dive in Dubai">
 							<div class="carousel-caption">
 								<div class="wrapper">
 									<h2><span>DIVE INTO DUBAI</span></h2>
-									<h4>HOTELS STARTING FROM <span>5000 INR/NIGHT</span></h4>
+									<h4>HOTELS STARTING FROM <span>5,000 INR/NIGHT</span></h4>
 									<a href="#">VIEW DETAILS</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
-							<img src="assets/images/slide.jpg" alt="Cruise">
+							<img src="assets/images/header-navigation/Indonesia-Mount-Bromo-Tour.jpg" alt="Into Indonesia">
 							<div class="carousel-caption">
 								<div class="wrapper">
-									<h2><span>ROMANTIC PARIS</span></h2>
-									<h4>PARIS FLIGHTS STARTING FROM <span>$199</span></h4>
+									<h2><span>INTIMATE INDONESIA</span></h2>
+									<h4>TOURS STARTING FROM <span>25,000 INR/PERSON</span></h4>
 									<a href="#">VIEW DETAILS</a>
 								</div>
 							</div>
@@ -90,12 +90,7 @@
 				<div role="tabpanel">
 					<!-- BEGIN: CATEGORY TAB -->
 					<ul class="nav nav-tabs search-top" role="tablist" id="searchTab">
-						<li role="presentation" class="text-center">
-							<a href="#flight" aria-controls="flight" role="tab" data-toggle="tab">
-								<i class="fa fa-plane"></i> 
-								<span>FLIGHTS</SPAN>
-							</a>
-						</li>
+						
 						<li role="presentation" class="active  text-center">
 							<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">
 								<i class="fa fa-bed"></i> 
@@ -125,71 +120,6 @@
 
 					<!-- BEGIN: TAB PANELS -->
 					<div class="tab-content">
-							<!-- BEGIN: FLIGHT SEARCH -->
-							<div role="tabpanel" class="tab-pane" id="flight">
-								<form >
-									<div class="col-md-12 product-search-title">Book Flight Tickets</div>
-									<div class="col-md-12 search-col-padding">
-										<label class="radio-inline">
-											<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="One Way"> One Way
-										</label>
-										<label class="radio-inline">
-											<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Round Trip"> Round Trip
-										</label>
-									</div>
-									<div class="clearfix"></div>
-									<div class="col-md-3 col-sm-3 search-col-padding">
-										<label>Leaving From</label>
-										<div class="input-group">
-											<input type="text" name="departure_city" class="form-control" required placeholder="E.g. London">
-											<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
-										</div>
-									</div>
-									<div class="col-md-3 col-sm-3 search-col-padding">
-										<label>Leaving To</label>
-										<div class="input-group">
-											<input type="text" name="destination_city" class="form-control" required placeholder="E.g. New York">
-											<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
-										</div>
-									</div>
-									<div class="col-md-3 col-sm-3 search-col-padding">
-										<label>Departure</label>
-										<div class="input-group">
-											<input type="text" id="departure_date" name="departure_date" class="form-control" placeholder="DD/MM/YYYY">
-											<span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
-										</div>
-									</div>
-									<div class="col-md-3 col-sm-3 search-col-padding">
-										<label>Return</label>
-										<div class="input-group">
-											<input type="text" id="return_date" class="form-control" name="return_date" placeholder="DD/MM/YYYY">
-											<span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
-										</div>
-									</div>
-									<div class="clearfix"></div>
-									<div class="col-md-4 col-sm-4 search-col-padding">
-										<label>Adult</label><br>
-										<input id="adult_count" name="adult_count" value="1" class="form-control quantity-padding">
-									</div>
-									<div class="col-md-4 col-sm-4 search-col-padding">
-										<label>Child</label><br>
-										<input type="text" id="child_count" name="child_count" value="1" class="form-control quantity-padding">
-									</div>
-									<div class="col-md-4 col-sm-4 search-col-padding">
-										<label>Class</label><br>
-										<select class="selectpicker">
-											<option>Business</option>
-											<option>Economy</option>
-										</select>
-									</div>
-									<div class="clearfix"></div>
-									<div class="col-md-12 search-col-padding">
-										<button type="submit" class="search-button btn transition-effect">Search Flights</button>
-									</div>
-									<div class="clearfix"></div>
-								</form>
-							</div>
-							<!-- END: FLIGHT SEARCH -->
 							
 							<!-- START: HOTEL SEARCH -->
 							<div role="tabpanel" class="tab-pane active" id="hotel">
@@ -458,12 +388,12 @@
 			<div class="col-md-6 clear-padding wow slideInLeft">
 				<div class="product-wrapper">
 					<div class="col-md-6 col-sm-6 home-product-padding tooltip-right">
-						<h4>Romantic Paris</h4>
-						<h5><i class="fa fa-map-marker"></i> France</h5>
-						<p>Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.</p>
+						<h4>Romantic Phuket</h4>
+						<h5><i class="fa fa-map-marker"></i> Phuket, Thailand</h5>
+						<p>Thailands exquisite romantic getaways - Phi Phi Island & James Bond Island</p>
 						<div class="rating-box">
 							<div class="pull-left">
-								<img src="assets/images/tripadvisor.png" alt="cruise"><span>4.0/5</span>
+								<img src="assets/images/tripadvisor.png" alt="tripadvisor"><span>4.0/5</span>
 							</div>
 							<div class="pull-right">
 								<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><span>4.5/5</span>
@@ -472,7 +402,7 @@
 						<div class="clearfix"></div>
 						<div class="pricing-info">
 							<div class="pull-left">
-								<span>$999/Person</span> 
+								<span>10,000 INR /Person</span> 
 							</div>
 							<div class="pull-right">
 								<a href="#" class="wow fadeIn">BOOK NOW</a>
@@ -481,7 +411,7 @@
 						<div class="clearfix"></div>
 					</div>
 					<div class="col-md-6 col-sm-6 clear-padding image-sm text-center">
-						<img src="assets/images/home2.jpg" alt="cruise">
+						<img src="assets/images/grid-promo/bondisland.jpg" alt="Phuket">
 						<div class="detail-link-wrapper">
 							<div class="detail-link">
 								<a href="#"><i class="fa fa-search"></i></a>
@@ -568,52 +498,52 @@
 					<h4>EXPLORE</h4>
 					<div class="space"></div>
 					<p>
-						Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						We have handpicked a few amazing destinations to add to your bucket list <br>
+						And we also facilitate their immediate fulfilment :)
 					</p>
 				</div>
 				<div class="col-md-10 col-md-offset-1 on-top clear-padding">
 					<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.1s">
-						<img src="assets/images/tour1.jpg" alt="cruise">
+						<img src="assets/images/foursquare/amsterdam.jpg" alt="Amazing Amsterdam">
 						<div class="overlay">
 							<div class="wrapper">
-								<h5>FRANCE</h5>
-								<h3><span>ROMANTIC PARIS</span></h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+								<h5>KINGDOM OF THE NETHERLANDS</h5>
+								<h3><span>AMSTERDAM</span></h3>
+								<p>Open-hearted, welcoming, and prosperous, Amsterdam is a good-time city that merrily opens its arms to all comers.</p>
 								<a href="#">KNOW MORE</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.2s">
-						<img src="assets/images/tour1.jpg" alt="cruise">
+						<img src="assets/images/foursquare/floating-market.jpg" alt="Floating Market">
 						<div class="overlay">
 							<div class="wrapper">
-								<h5>BANGKOK</h5>
-								<h3><span>DISENYLAND BANGKOK</span></h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+								<h5>Thailand</h5>
+								<h3><span>Foating in Bangkok</span></h3>
+								<p>Bored of online & trolley shopping ? How about floating all the way wearing a Shopping Hat.</p>
 								<a href="#">KNOW MORE</a>
 							</div>
 						</div>
 					</div>
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.1s">
-						<img src="assets/images/tour1.jpg" alt="cruise">
+						<img src="assets/images/foursquare/walking_street.jpg" alt="Walk in Pattaya">
 						<div class="overlay">
 							<div class="wrapper">
-								<h5>DUBAI</h5>
-								<h3><span>SKY HIGH DUBAI</span></h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+								<h5>Thailand</h5>
+								<h3><span>WALK IN PATTAYA</span></h3>
+								<p>A walk in the streets of Pattaya can cure a number of loneliness, boredom, emotional and physical disorders.</p>
 								<a href="#">KNOW MORE</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.2s">
-						<img src="assets/images/tour1.jpg" alt="cruise">
+						<img src="assets/images/foursquare/phuket-spl.jpg" alt="Cruize Phuket">
 						<div class="overlay">
 							<div class="wrapper">
-								<h5>AUSTRIA</h5>
-								<h3><span>HILLY VIEW</span></h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+								<h5>Thailand</h5>
+								<h3><span>Cruize Phuket</span></h3>
+								<p>Come and experience the perfect mixture of an adventerous speed boat cruize to Phi Phi islands along with a peaceful long tail boat ride to James Bond island</p>
 								<a href="#">KNOW MORE</a>
 							</div>
 						</div>
@@ -784,7 +714,7 @@
 				<div class="choose-us-item text-center">
 					<div class="choose-icon"><i class="fa fa-suitcase"></i></div>
 					<h4>Handpicked Tour</h4>
-					<p>Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>You customize us and we streamline your trip to perfection. #SPLForYou</p>
 					<a href="#">KNOW MORE</a>
 				</div>
 			</div>
@@ -792,7 +722,7 @@
 				<div class="choose-us-item text-center">
 					<div class="choose-icon"><i class="fa fa-phone"></i></div>
 					<h4>Dedicated Support</h4>
-					<p>Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>We are more than happy to help the wander lost. #SPLSupport</p>
 					<a href="#">KNOW MORE</a>
 				</div>
 			</div>
@@ -800,7 +730,7 @@
 				<div class="choose-us-item text-center">
 					<div class="choose-icon"><i class="fa fa-smile-o"></i></div>
 					<h4>Lowest Price</h4>
-					<p>Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>You don't have to be rich to travel well. We shall ensure your pockets remain heavy.</p>
 					<a href="#">KNOW MORE</a>
 				</div>
 			</div>
