@@ -72,7 +72,7 @@
 
 <script>
 	"use strict";
-	$('#site-launch').countdown({until: new Date(2016, 1, 14, 10, 0, 0, 0)});
+	$('#site-launch').countdown({until: new Date(2016, 3, 14, 10, 0, 0, 0)});
 </script>
 </body>
 </html>
