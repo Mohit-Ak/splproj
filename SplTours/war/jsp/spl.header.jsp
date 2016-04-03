@@ -69,7 +69,7 @@
 								<li class="dropdown">
 									<a class="dropdown-toggle" href="index.jsp"><i class="fa fa-home"></i> HOME</a>
 								</li>
-								<li class="dropdown mega">
+								<li class="dropdown mega hide">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-bed"></i> HOTELS <i class="fa fa-caret-down"></i></a>
 									<ul class="dropdown-menu mega-menu">
 										<li class="col-md-3 col-sm-3 desc">
@@ -139,7 +139,7 @@
 									</ul>
 									<div class="clearfix"></div>
 								</li>
-								<li class="dropdown mega">
+								<li class="dropdown mega hide">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-plane"></i> FLIGHTS <i class="fa fa-caret-down"></i></a>
 									<ul class="dropdown-menu mega-menu">
 										<li class="col-md-3 col-sm-3 desc">
@@ -200,7 +200,7 @@
 									</ul>
 									<div class="clearfix"></div>
 								</li> 
-								<li class="dropdown mega">
+								<li class="dropdown mega hide">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-suitcase"></i> TOURS <i class="fa fa-caret-down"></i></a>
 									<ul class="dropdown-menu mega-menu">
 										<li class="col-md-3 col-sm-3 desc">
@@ -244,7 +244,7 @@
 									</ul>
 									<div class="clearfix"></div>
 								</li>
-								<li class="dropdown mega">
+								<li class="dropdown mega hide">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-taxi"></i> CARS <i class="fa fa-caret-down"></i></a>
 									<ul class="dropdown-menu mega-menu">
 										<li class="col-md-3 col-sm-3 desc">
@@ -284,7 +284,7 @@
 									</ul>
 									<div class="clearfix"></div>
 								</li>
-								<li class="dropdown mega">
+								<li class="dropdown mega hide">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-ship"></i> CRUISE <i class="fa fa-caret-down"></i></a>
 									<ul class="dropdown-menu mega-menu">
 										<li class="col-md-3 col-sm-3 desc">
@@ -323,11 +323,268 @@
 									</ul>
 									<div class="clearfix"></div>
 								</li>
-								<li class="dropdown mega">
+								<li class="dropdown mega hide">
 									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-file"></i> PAGES <i class="fa fa-caret-down"></i></a>
 									<ul class="dropdown-menu mega-menu">
 										<li class="col-md-3 col-sm-4 links">
 											<h5>BLOG PAGES</h5>
+											<ul>
+												<li><a href="blog-right-sidebar.html">RIGHT SIDEBAR</a></li>
+												<li><a href="blog-left-sidebar.html">LEFT SIDEBAR</a></li>
+												<li><a href="blog-full-width.html">FULL WIDTH</a></li>
+												<li><a href="single-right-sidebar.html">SINGLE RIGHT SIDEBAR</a></li>
+												<li><a href="single-left-sidebar.html">SINGLE LEFT SIDEBAR</a></li>
+												<li><a href="single-full-width.html">SINGLE FULL WIDTH</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>SPECIAL PAGES</h5>
+											<ul>
+												<li><a href="coming-soon.html">COMING SOON</a></li>
+												<li><a href="404.html">404</a></li>
+												<li><a href="404-2.html">404 2</a></li>
+												<li><a href="loading.html">LOADING</a></li>
+												<li><a href="login.html">LOGIN/REGSITER</a></li>
+												<li><a href="elements.html">ELEMENTS</a></li>
+												<li><a href="thank-you.html">COMING SOON</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>EXTRA PAGES</h5>
+											<ul>
+												<li><a href="user-profile.html">USER DASHBOARD</a></li>
+												<li><a href="gallery-3column.html">GALLERY 3 COLUMN</a></li>
+												<li><a href="gallery-4column.html">GALLERY 4 COLUMN</a></li>
+												<li><a href="about-us.html">ABOUT US</a></li>
+												<li><a href="contact-us.html">CONTACT US</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<div class="img-div clear-top">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>DUBAI</h5>
+													<p>Starting From $599</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</li>
+								<li class="dropdown mega">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-plane"></i> THAILAND <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu mega-menu">
+										<li class="col-md-3 col-sm-3 desc">
+											<h4>THAILAND</h4>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>PAGES</h5>
+											<ul>
+												<li><a href="flight.html">FLIGHT SEARCH</a></li>
+												<li><a href="flight-list-2.html">FLIGHT LIST</a></li>
+												<li><a href="flight-list.html">FLIGHT LIST 2</a></li>
+												<li><a href="flight-booking.html">FLIGHT BOOKING</a></li>
+											</ul>
+											<div class="img-div">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>30% OFF</h5>
+													<p>On BANGKOK FLIGHTS</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>TOP REGION</h5>
+											<ul>
+												<li><a href="#">ASIA</a></li>
+												<li><a href="#">AFRICA</a></li>
+												<li><a href="#">EAST ASIA</a></li>
+												<li><a href="#">WESTERN EUROPE</a></li>
+											</ul>
+											<div class="img-div">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>10% OFF</h5>
+													<p>On DUBAI FLIGHTS</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>CHEAP FLIGHTS TO</h5>
+											<ul>
+												<li><a href="#">BENGLURU</a></li>
+												<li><a href="#">CHENNAI</a></li>
+												<li><a href="#">CALIFORNIA</a></li>
+												<li><a href="#">GOA</a></li>
+											</ul>
+											<div class="img-div">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>20% OFF</h5>
+													<p>On Paris Flights</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</li>
+								<li class="dropdown mega">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-plane"></i> DUBAI <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu mega-menu">
+										<li class="col-md-3 col-sm-4 links">
+											<h5>DUBAI</h5>
+											<ul>
+												<li><a href="blog-right-sidebar.html">RIGHT SIDEBAR</a></li>
+												<li><a href="blog-left-sidebar.html">LEFT SIDEBAR</a></li>
+												<li><a href="blog-full-width.html">FULL WIDTH</a></li>
+												<li><a href="single-right-sidebar.html">SINGLE RIGHT SIDEBAR</a></li>
+												<li><a href="single-left-sidebar.html">SINGLE LEFT SIDEBAR</a></li>
+												<li><a href="single-full-width.html">SINGLE FULL WIDTH</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>SPECIAL PAGES</h5>
+											<ul>
+												<li><a href="coming-soon.html">COMING SOON</a></li>
+												<li><a href="404.html">404</a></li>
+												<li><a href="404-2.html">404 2</a></li>
+												<li><a href="loading.html">LOADING</a></li>
+												<li><a href="login.html">LOGIN/REGSITER</a></li>
+												<li><a href="elements.html">ELEMENTS</a></li>
+												<li><a href="thank-you.html">COMING SOON</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>EXTRA PAGES</h5>
+											<ul>
+												<li><a href="user-profile.html">USER DASHBOARD</a></li>
+												<li><a href="gallery-3column.html">GALLERY 3 COLUMN</a></li>
+												<li><a href="gallery-4column.html">GALLERY 4 COLUMN</a></li>
+												<li><a href="about-us.html">ABOUT US</a></li>
+												<li><a href="contact-us.html">CONTACT US</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<div class="img-div clear-top">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>DUBAI</h5>
+													<p>Starting From $599</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</li>
+								<li class="dropdown mega">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-plane"></i> AMSTERDAM <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu mega-menu">
+										<li class="col-md-3 col-sm-4 links">
+											<h5>AMSTERDAM</h5>
+											<ul>
+												<li><a href="blog-right-sidebar.html">RIGHT SIDEBAR</a></li>
+												<li><a href="blog-left-sidebar.html">LEFT SIDEBAR</a></li>
+												<li><a href="blog-full-width.html">FULL WIDTH</a></li>
+												<li><a href="single-right-sidebar.html">SINGLE RIGHT SIDEBAR</a></li>
+												<li><a href="single-left-sidebar.html">SINGLE LEFT SIDEBAR</a></li>
+												<li><a href="single-full-width.html">SINGLE FULL WIDTH</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>SPECIAL PAGES</h5>
+											<ul>
+												<li><a href="coming-soon.html">COMING SOON</a></li>
+												<li><a href="404.html">404</a></li>
+												<li><a href="404-2.html">404 2</a></li>
+												<li><a href="loading.html">LOADING</a></li>
+												<li><a href="login.html">LOGIN/REGSITER</a></li>
+												<li><a href="elements.html">ELEMENTS</a></li>
+												<li><a href="thank-you.html">COMING SOON</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>EXTRA PAGES</h5>
+											<ul>
+												<li><a href="user-profile.html">USER DASHBOARD</a></li>
+												<li><a href="gallery-3column.html">GALLERY 3 COLUMN</a></li>
+												<li><a href="gallery-4column.html">GALLERY 4 COLUMN</a></li>
+												<li><a href="about-us.html">ABOUT US</a></li>
+												<li><a href="contact-us.html">CONTACT US</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<div class="img-div clear-top">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>DUBAI</h5>
+													<p>Starting From $599</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</li>
+								<li class="dropdown mega">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-plane"></i> INDONESIA <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu mega-menu">
+										<li class="col-md-3 col-sm-4 links">
+											<h5>INDONESIA</h5>
+											<ul>
+												<li><a href="blog-right-sidebar.html">RIGHT SIDEBAR</a></li>
+												<li><a href="blog-left-sidebar.html">LEFT SIDEBAR</a></li>
+												<li><a href="blog-full-width.html">FULL WIDTH</a></li>
+												<li><a href="single-right-sidebar.html">SINGLE RIGHT SIDEBAR</a></li>
+												<li><a href="single-left-sidebar.html">SINGLE LEFT SIDEBAR</a></li>
+												<li><a href="single-full-width.html">SINGLE FULL WIDTH</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>SPECIAL PAGES</h5>
+											<ul>
+												<li><a href="coming-soon.html">COMING SOON</a></li>
+												<li><a href="404.html">404</a></li>
+												<li><a href="404-2.html">404 2</a></li>
+												<li><a href="loading.html">LOADING</a></li>
+												<li><a href="login.html">LOGIN/REGSITER</a></li>
+												<li><a href="elements.html">ELEMENTS</a></li>
+												<li><a href="thank-you.html">COMING SOON</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<h5>EXTRA PAGES</h5>
+											<ul>
+												<li><a href="user-profile.html">USER DASHBOARD</a></li>
+												<li><a href="gallery-3column.html">GALLERY 3 COLUMN</a></li>
+												<li><a href="gallery-4column.html">GALLERY 4 COLUMN</a></li>
+												<li><a href="about-us.html">ABOUT US</a></li>
+												<li><a href="contact-us.html">CONTACT US</a></li>
+											</ul>
+										</li>
+										<li class="col-md-3 col-sm-4 links">
+											<div class="img-div clear-top">
+												<img src="assets/images/tour1.jpg" alt="cruise">
+												<div class="overlay">
+													<h5>DUBAI</h5>
+													<p>Starting From $599</p>
+													<a href="#">KNOW MORE</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</li>
+								<li class="dropdown mega">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-plane"></i> OTHERS <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu mega-menu">
+										<li class="col-md-3 col-sm-4 links">
+											<h5>INDONESIA</h5>
 											<ul>
 												<li><a href="blog-right-sidebar.html">RIGHT SIDEBAR</a></li>
 												<li><a href="blog-left-sidebar.html">LEFT SIDEBAR</a></li>
@@ -377,6 +634,7 @@
 									<ul class="dropdown-menu">
 										<li><a href="spl.contactus-India.jsp"> India</a></li>
 										<li><a href="spl.contactus-Thailand.jsp"> Thailand</a></li>
+										<li><a href="spl.about-us.jsp"> About us</a></li>
 									</ul>
 								</li>
 							</ul>
