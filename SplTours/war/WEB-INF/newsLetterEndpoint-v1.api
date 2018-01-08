@@ -1,0 +1,106 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://spltours-1093.appspot.com/_ah/api",
+  "name" : "newsLetterEndpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "discovery" : [ "PUBLIC" ],
+  "adapter" : {
+    "bns" : "https://spltours-1093.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "spltours",
+  "ownerName" : "spltours",
+  "methods" : {
+    "newsLetterEndpoint.saveNewsLetter" : {
+      "path" : "saveNewsLetter",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.spl.backend.endpoints.NewsLetterEndpoint.saveNewsLetter",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "newsLetterEndpoint.getNewsLetter" : {
+      "path" : "newslettercollection",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.spl.backend.endpoints.NewsLetterEndpoint.getNewsLetter",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "Newsletter" : {
+        "id" : "Newsletter",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "email" : {
+            "type" : "string"
+          }
+        }
+      },
+      "NewsletterCollection" : {
+        "id" : "NewsletterCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Newsletter"
+            }
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.spl.backend.endpoints.NewsLetterEndpoint.saveNewsLetter" : {
+        "request" : {
+          "$ref" : "Newsletter"
+        },
+        "response" : {
+          "$ref" : "Newsletter"
+        }
+      },
+      "com.spl.backend.endpoints.NewsLetterEndpoint.getNewsLetter" : {
+        "response" : {
+          "$ref" : "NewsletterCollection"
+        }
+      }
+    }
+  }
+}

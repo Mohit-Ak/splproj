@@ -1,0 +1,69 @@
+.header-top .social-media ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 0px
+}
+.header-top .social-media ul li {
+	display: inline;
+}
+.header-top .social-media li a {
+	background: #f9676b none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    margin: 0px 5px 0;
+    padding: 6px 13px;
+    width: 40px;
+}
+.header-top .social-media li a:hover {
+	background: #00adef;
+}
+.header-top .social-media li a i {
+font-size: 16px;
+}
+.header-top .social-media a i{
+	color: #fff;	
+}
+.aboutus .page-title {
+    background: url('../images/cover/bg-aboutus.jpg');
+    height: 320px;
+}
+.spl-dubaip1 .page-title {
+    background: url('../images/cover/bg-dubaicover.jpg');
+    height: 320px;
+}
+.spl-europep3 .page-title {
+    background: url('../images/cover/bg-switzerlandcover.jpg');
+    height: 320px;
+}
+.spl-europep1 .page-title {
+    background: url('../images/cover/bg-parisdisneyland.jpg');
+    height: 320px;
+}
+.spl-indonesiap1 .page-title {
+    background: url('../images/cover/bg-indonesiacover.jpg');
+    height: 320px;
+}
+.spl-thailandp1 .page-title {
+    background: url('../images/cover/bg-thailandcover.jpg');
+    height: 320px;
+}
+
+.spl-thailandp3 .page-title {
+    background: url('../images/cover/bg-thailandcover.jpg');
+    height: 320px;
+}
+.spl-thailandp2 .page-title {
+    background: url('../images/cover/bg-thailandcover.jpg');
+    height: 320px;
+}
+
+.spl-contactus-india .page-title {
+   	height: 400px;
+}
+
+
+.fullwidth{
+	width: 100%;
+}

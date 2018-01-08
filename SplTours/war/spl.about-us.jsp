@@ -25,7 +25,7 @@
 <!-- END: PRELOADER -->
 
 <!-- BEGIN: SITE-WRAPPER -->
-<div class="site-wrapper">
+<div class="site-wrapper aboutus">
 
 <%@ include file="jsp/spl.header.jsp"%>
 
@@ -34,8 +34,7 @@
 	<!-- START: PAGE TITLE -->
 	<div class="row page-title">
 		<div class="container clear-padding text-center flight-title">
-			<h3>ABOUT US</h3>
-			<h4>A Few Words About Us</h4>
+			
 		</div>
 	</div>
 	<!-- END: PAGE TITLE -->
@@ -47,13 +46,19 @@
 	<!-- START: ABOUT-US -->
 	<div class="row about-intro">
 		<div class="container clear-padding">
-			<div class="col-md-6 col-sm-6">
+			<div class="col-md-12 col-sm-12">
 				<h2>INTRODUCTION</h2>
 				<h4>What We Do</h4>
-				<p>We are a bunch of travelers who are </p>
-			</div>
-			<div class="col-md-6 col-sm-6">
-				<img src="assets/images/slide.jpg" alt="cruise">
+				<p>
+				The initial venture into the world of unmatched tourism was taken by Mr.Prakasam Santhanam who founded SPL Thai Tours & Transport in the year 2005. 
+				The Head office was located at 8/87 moo 6, Nakluea, Bangamung, Chon Buri, Thailand-21050, which in itself is a breathtaking and lively destination. 
+				Since then SPL tours have been a pro at creating touristic packages, determining the needs of various categories of clients, 
+				and making travel arrangements (accommodation, VISA, transport, meals, tours, insurance, and so on). SPL consultants are travel addicts themselves and so 
+				they possess commendable interpersonal skills, a genuine interest in touristic locations, speaks at least one foreign language, and have an approachable attitude. 
+				Currently, we still carry the startup culture and welcome you personally at the Airports with our caravans. In 2016, Mr. Ramakrishnan has taken a great tour leap by 
+				establishing another branch of SPL Tours in Chennai, India. This venture would make it more accessible for  all the globetrotters to approach us and unveil their wanderlust. 
+				So drop in at No. 3 Muthukrishnan street, Pondybazaar, T.Nagar, Chennai - 600017, India if you wanna book tickets, exchange currency, pick,  customize a package or if you like to have a masala dosa.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -67,29 +72,29 @@
 				<h4>Meet the team who which fuels SPL</h4>
 			</div>
 			<div>
-				<div class="col-md-4 col-sm-6 text-center">
+				<div class="col-md-6 col-sm-6 text-center">
 					<div class="team-member">
-						<img src="assets/images/user.jpg" alt="cruise">
-						<h4>Sarena Doe</h4>
-						<h5>Graphic Designer</h5>
-						<a href="#"><i class="fa fa-facebook"></i></a>
+						<img src="assets/images/user.png" alt="Ramakrishnan">
+						<h4>RamaKrishnan</h4>
+						<h5>CEO, SPL Tours</h5>
+						<a href="https://www.facebook.com/rama.krish.988" target="blank"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 text-center">
+				<div class="col-md-6 col-sm-6 text-center">
 					<div class="team-member">
-						<img src="assets/images/user.jpg" alt="cruise">
-						<h4>Lenore</h4>
-						<h5>Graphics Designer</h5>
-						<a href="#"><i class="fa fa-facebook"></i></a>
+						<img src="assets/images/santhanam.jpg" alt="cruise">
+						<h4>Prakasam Santhanam</h4>
+						<h5>CEO, SPL Thai Tours</h5>
+						<a href="https://www.facebook.com/prakasamtravels" target="blank"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
 					</div>
 				</div>
-				<div class="clearfix visible-sm-block"></div>
+			<!-- 	<div class="clearfix visible-sm-block"></div>
 				<div class="col-md-4 col-sm-6 text-center">
 					<div class="team-member">
 						<img src="assets/images/user.jpg" alt="cruise">
@@ -100,7 +105,7 @@
 						<a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -115,21 +120,24 @@
 						<h2>OUR SERVICES</h2>
 						<h4>What We Offer</h4>
 					</div>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<p>
+						We offer a variety of tour delicacies from pampering your travel to carrying you on a palanquin ;)
+						<br/>Apart from these we also provide Tickets booking, FOREX, Itinerary planning, Hotel offering, Travel insurance, VISA assistance and awesome companions.
+					</p>
 				</div>
 				<div class="service-right col-md-8">
 					<div class="col-md-6 col-sm-6 text-center service">
 						<i class="fa fa-plane"></i>
 						<div class="service-desc">
 							<h5>FLIGHT BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Tell us your destination and we'll atleast get you flying brooms.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 text-center service">
 						<i class="fa fa-bed"></i>
 						<div class="service-desc">
 							<h5>HOTEL BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Tell us your stay preference and we'll atleast get you portable a tent.</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -137,14 +145,14 @@
 						<i class="fa fa-suitcase"></i>
 						<div class="service-desc">
 							<h5>HOLIDAYS BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Tell us your dream destination and we'll atleast get you sleeping pills.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 text-center service">
 						<i class="fa fa-ship"></i>
 						<div class="service-desc">
 							<h5>CRUISE BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Tell us your sail choice and we'll atleast get you paper boats.</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>

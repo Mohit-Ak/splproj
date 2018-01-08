@@ -1,0 +1,159 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://spltours-1093.appspot.com/_ah/api",
+  "name" : "bookingPackageEndpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "discovery" : [ "PUBLIC" ],
+  "adapter" : {
+    "bns" : "https://spltours-1093.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "spltours",
+  "ownerName" : "spltours",
+  "methods" : {
+    "bookingPackageEndpoint.saveBookingPackage" : {
+      "path" : "saveBookingPackage",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.spl.backend.endpoints.BookingPackageEndpoint.saveBookingPackage",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "bookingPackageEndpoint.getBookingPackage" : {
+      "path" : "bookingpackagecollection/{emailId}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.spl.backend.endpoints.BookingPackageEndpoint.getBookingPackage",
+      "request" : {
+        "parameters" : {
+          "emailId" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "bookingPackageEndpoint.getAllBookingPackage" : {
+      "path" : "bookingpackagecollection",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.spl.backend.endpoints.BookingPackageEndpoint.getAllBookingPackage",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "BookingPackage" : {
+        "id" : "BookingPackage",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "email" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "phone" : {
+            "type" : "string"
+          },
+          "bookingDate" : {
+            "type" : "string"
+          },
+          "duration" : {
+            "type" : "string"
+          },
+          "adult" : {
+            "type" : "string"
+          },
+          "children" : {
+            "type" : "string"
+          },
+          "tripType" : {
+            "type" : "string"
+          },
+          "packageCode" : {
+            "type" : "string"
+          },
+          "country" : {
+            "type" : "string"
+          }
+        }
+      },
+      "BookingPackageCollection" : {
+        "id" : "BookingPackageCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "BookingPackage"
+            }
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.spl.backend.endpoints.BookingPackageEndpoint.saveBookingPackage" : {
+        "request" : {
+          "$ref" : "BookingPackage"
+        },
+        "response" : {
+          "$ref" : "BookingPackage"
+        }
+      },
+      "com.spl.backend.endpoints.BookingPackageEndpoint.getBookingPackage" : {
+        "response" : {
+          "$ref" : "BookingPackageCollection"
+        }
+      },
+      "com.spl.backend.endpoints.BookingPackageEndpoint.getAllBookingPackage" : {
+        "response" : {
+          "$ref" : "BookingPackageCollection"
+        }
+      }
+    }
+  }
+}

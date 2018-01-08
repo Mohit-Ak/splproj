@@ -25,3 +25,49 @@ font-size: 16px;
 .header-top .social-media a i{
 	color: #fff;	
 }
+.aboutus .page-title {
+    background: url('../images/cover/bg-aboutus.jpg');
+    height: 320px;
+}
+.spl-dubaip1 .page-title {
+    background: url('../images/cover/bg-dubaicover.jpg');
+    height: 320px;
+}
+.spl-europep3 .page-title {
+    background: url('../images/cover/bg-switzerlandcover.jpg');
+    height: 320px;
+}
+.spl-europep1 .page-title {
+    background: url('../images/cover/bg-parisdisneyland.jpg');
+    height: 320px;
+}
+.spl-indonesiap1 .page-title {
+    background: url('../images/cover/bg-indonesiacover.jpg');
+    height: 320px;
+}
+.spl-thailandp1 .page-title {
+    background: url('../images/cover/bg-thailandcover.jpg');
+    height: 320px;
+}
+.spl-uzbekistanp1 .page-title {
+    background: url('../images/cover/bg-uzbekistancover.jpg')!important;
+    height: 360px;
+}
+
+.spl-thailandp3 .page-title {
+    background: url('../images/cover/bg-thailandcover.jpg');
+    height: 320px;
+}
+.spl-thailandp2 .page-title {
+    background: url('../images/cover/bg-thailandcover.jpg');
+    height: 320px;
+}
+
+.spl-contactus-india .page-title {
+   	height: 400px;
+}
+
+
+.fullwidth{
+	width: 100%;
+}

@@ -1,0 +1,2 @@
+serviceClass: com.spl.web.client.GreetingService
+path: 20D3C1E39FD7CEB6F14FE503629B2284.gwt.rpc

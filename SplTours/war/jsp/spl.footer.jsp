@@ -38,38 +38,38 @@
 					<p>"A journey is best measured in friends, rather than miles"– Tim Cahill. 
 					We love to be travel amigos & thirst for the same has kept us thriving since 2005. 
 					</p>
-					<a href="#">READ MORE</a>
+					<a href="spl.about-us.jsp">READ MORE</a>
 				</div>
 				<div class="col-md-3 col-sm-6 links">
 					<h4>Popular Tours</h4>
 					<ul>
-						<li><a href="#">Romantic France</a></li>
-						<li><a href="#">Wonderful Lodnon</a></li>
-						<li><a href="#">Awesome Amsterdam</a></li>
-						<li><a href="#">Wild Africa</a></li>
-						<li><a href="#">Beach Goa</a></li>
-						<li><a href="#">Casino Los Vages</a></li>
-						<li><a href="#">Romantic France</a></li>
+						<li><a href="spl.contactus-India.jsp">Romantic France</a></li>
+						<li><a href="spl.contactus-India.jsp">Wonderful London</a></li>
+						<li><a href="spl.contactus-India.jsp">Awesome Amsterdam</a></li>
+						<li><a href="spl.contactus-India.jsp">Wild Africa</a></li>
+						<li><a href="spl.contactus-India.jsp">Goa</a></li>
+						<li><a href="spl.contactus-India.jsp">Casino at Las Vegas</a></li>
+						<li><a href="spl.contactus-India.jsp">Romantic France</a></li>
 					</ul>
 				</div>
 				<div class="clearfix visible-sm-block"></div>
 				<div class="col-md-3 col-sm-6 links">
 					<h4>Our Services</h4>
 					<ul>
-						<li><a href="#">Foreign Currency Exchange</a></li>
-						<li><a href="#">Domestic & International Flights</a></li>
-						<li><a href="#">Tours & Holidays</a></li>
-						<li><a href="#">Domestic Hotels</a></li>
-						<li><a href="#">International Hotels</a></li>
-						<li><a href="#">Cruise Holidays</a></li>
-						<li><a href="#">Car Rental</a></li>
+						<li><a href="spl.contactus-India.jsp">Foreign Currency Exchange</a></li>
+						<li><a href="spl.contactus-India.jsp">Domestic & International Flights</a></li>
+						<li><a href="spl.contactus-India.jsp">Tours & Holidays</a></li>
+						<li><a href="spl.contactus-India.jsp">Domestic Hotels</a></li>
+						<li><a href="spl.contactus-India.jsp">International Hotels</a></li>
+						<li><a href="spl.contactus-India.jsp">Cruise Holidays</a></li>
+						<li><a href="spl.contactus-India.jsp">Car Rental</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6 contact-box">
 					<h4>Contact Us</h4>
 					<p><i class="fa fa-home"></i> 8/87 Moo 6 Naklua, Banglamung, Chonburi 20150, Thailand</p>
 					<p><i class="fa fa-phone"></i> Thailand: +086 5166469</p>
-					<p><i class="fa fa-phone"></i> India: +91 9840669562</p>
+					<p><i class="fa fa-phone"></i> India: +91 9884969562</p>
 					<p><i class="fa fa-envelope-o"></i> toursspl@gmail.com</p>
 				</div>
 				<div class="clearfix"></div>
@@ -86,7 +86,7 @@
 		<div class="main-footer-nav row">
 			<div class="container clear-padding">
 				<div class="col-md-6 col-sm-6">
-					<p>Copyright &copy; 2015 SPL Tours. All Rights Reserved.</p>
+					<p>Copyright &copy; 2015 SPL Tours. <a href="assets/images/certifications/isocertified.jpg" target="_blank">ISO 9001:2015.</a></p>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<ul>
